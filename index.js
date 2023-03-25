@@ -15,3 +15,12 @@ const product3 = {
   name: 'Anatoplavky',
   description: 'Aby muži na rozpálených plážích kromě vašeho těla obdivovali také vaše nitro.',
 };
+
+const product1Elm = document.querySelector('#product1');
+product1Elm.classList.add('border-primary');
+
+const btn2Elm = document.querySelector('#btn2');
+btn2Elm.classList.remove('btn-primary');
+
+const card3TitleElm = document.querySelector('#card3-title');
+card3TitleElm.classList.toggle('text-center');
